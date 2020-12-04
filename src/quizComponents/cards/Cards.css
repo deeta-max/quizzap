@@ -1,0 +1,39 @@
+.cards{
+
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    padding: 0;
+}
+.cards-image{
+
+    border-radius: 10px;
+    object-fit: contain;
+    width: 100%;
+    z-index: -1;
+    margin-bottom: -50px;
+    mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+
+.cards-para{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 15px;
+
+}
+.cards-para > p{
+    background-color: #ffd369;
+    border-radius: 5px;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+
+
+@media screen and (max-width:600px){
+    .cards{
+        width: 200px;
+        height: 200px;
+    }
+}

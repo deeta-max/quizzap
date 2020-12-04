@@ -1,0 +1,33 @@
+.section{
+    margin-top: 50px;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.section-card{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+@media screen and (max-width:600px){
+    .section-card{
+        grid-template-columns: auto auto ;
+    }
+    .section{
+        padding: 10px;
+    }
+}
+@media screen and (max-width:900px) and (min-width:600px){
+    .section-card{
+        grid-template-columns: auto auto ;
+    }
+
+}
+@media screen and (min-width:1200px){
+    .section-card{
+        grid-template-columns: auto auto auto auto;
+    }
+
+}
+
+
